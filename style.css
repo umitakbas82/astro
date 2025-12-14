@@ -700,3 +700,83 @@ body {
     font-weight: normal;
     display: block;
 }
+
+/* --- HAKKIMDA SAYFASI STİLLERİ --- */
+
+.about-page-body {
+    background-color: #0a0a0f;
+    min-height: 100vh;
+}
+
+.about-hero-section {
+    padding: 150px 0 80px;
+    /* Navbar payı */
+}
+
+/* Portre Resmi Tasarımı */
+.about-portrait-wrapper {
+    position: relative;
+    padding: 20px;
+}
+
+.about-portrait {
+    border-radius: 5px;
+    filter: grayscale(20%);
+    /* Hafif siyah beyaz ton */
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Resmin arkasındaki altın çerçeve efekti */
+.portrait-border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--gold);
+    transform: translate(-15px, -15px);
+    /* Çerçeveyi biraz kaydır */
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.about-portrait-wrapper:hover .portrait-border {
+    transform: translate(-5px, -5px);
+    /* Hover olunca çerçeve resme yaklaşsın */
+}
+
+/* Motto Kutusu */
+.motto-box {
+    border-left: 3px solid var(--gold);
+    background: linear-gradient(90deg, rgba(212, 175, 55, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+}
+
+/* --- DEĞERLER / PRENSİPLER BÖLÜMÜ --- */
+.values-section {
+    padding: 60px 0 100px;
+    background-color: #0f0f14;
+    /* Hafif ton farkı */
+}
+
+.value-card {
+    padding: 30px 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: 0.3s;
+}
+
+.value-card:hover {
+    border-color: var(--gold);
+    transform: translateY(-5px);
+    background-color: rgba(212, 175, 55, 0.05);
+}
+
+.value-card h4 {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
