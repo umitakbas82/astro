@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     })
                     .finally(() => {
                         if (btn) btn.disabled = false;
-                        if (btnText) btnText.textContent = "GÖNDER 🚀"; // Buton yazısı eski haline döner
+                        if (btnText) btnText.textContent = "GÖNDER "; // Buton yazısı eski haline döner
                         if (btnLoader) btnLoader.classList.add("d-none");
                     });
             });

@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // --- 4. Mail İçeriğini Hazırla ---
-    $alici_email = "burcyoraastro@gmail.com"; 
+    $alici_email = "u.akbas1982@gmail.com"; 
     
     // Konuyu belirle (Detaylı form mu, basit iletişim mi?)
     if (!empty($dogum_tarihi)) {
@@ -65,7 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // --- 5. Başlıklar ve Gönderim ---
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-    $headers .= "From: Burçyora Web <no-reply@burcyoraastro.com>" . "\r\n";
+    $headers .= "From: Burçyora Web <u.akbas1982@gmail.com>" . "\r\n";
     $headers .= "Reply-To: $email" . "\r\n";
 
     if (mail($alici_email, $konu, $email_icerik, $headers)) {

@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <!-- <a class="navbar-brand logo-text" href="/index.html">BURCYORA ASTRO </a> -->
-            <a class="navbar-brand d-flex flex-column" href="/index.html" style="line-height: 1;">
+            <a class="navbar-brand d-flex flex-column" href="/index.php" style="line-height: 1;">
                 <span class="logo-text">BURCYORA</span>
                 <span class="logo-slogan small" style="color: white">Sezgisel & Analitik Astroloji</span>
             </a>
