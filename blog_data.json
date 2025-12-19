@@ -1,0 +1,27 @@
+[
+    {
+        "id": "6944586429a2b",
+        "tarih": "18.12.2025",
+        "kategori": "Bugünün Enerjisi",
+        "baslik": "test",
+        "ozet": "test özet",
+        "icerik": "<p>bu bir kategori test yazısıdır<\/p>",
+        "resim": "uploads\/1766086756_nedenbiz.jpeg"
+    },
+    {
+        "id": "69444f371cb77",
+        "tarih": "18.12.2025",
+        "baslik": "test",
+        "ozet": "test",
+        "icerik": "<p>test<\/p>",
+        "resim": "uploads\/1766084407_mainpage (1).jpeg"
+    },
+    {
+        "id": "69444ecd6ef31",
+        "tarih": "18.12.2025",
+        "baslik": "test",
+        "ozet": "test",
+        "icerik": "<p>test<\/p>",
+        "resim": "uploads\/1766084301_mainpage (1).jpeg"
+    }
+]
