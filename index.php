@@ -187,26 +187,26 @@
                 <div class="col-lg-8">
                     <div class="journal-list">
 
-                        <a href="/blog.html" class="journal-item">
+                        <a href="/blog.php" class="journal-item">
                             <span class="journal-icon"><i class="bi bi-sun"></i></span>
                             <span class="journal-text">Bugünün Enerjisi: Gökyüzü ne
                                 fısıldıyor?</span>
                             <span class="journal-arrow"><i class="bi bi-arrow-right"></i></span>
                         </a>
 
-                        <a href="/blog.html" class="journal-item">
+                        <a href="/blog.php" class="journal-item">
                             <span class="journal-icon"><i class="bi bi-calendar-week"></i></span>
                             <span class="journal-text">Haftalık Gökyüzü Yorumu (Burç Bazında)</span>
                             <span class="journal-arrow"><i class="bi bi-arrow-right"></i></span>
                         </a>
 
-                        <a href="/blog.html" class="journal-item">
+                        <a href="/blog.php" class="journal-item">
                             <span class="journal-icon"><i class="bi bi-moon"></i></span>
                             <span class="journal-text">Yeni Ay & Dolunay Ritüelleri</span>
                             <span class="journal-arrow"><i class="bi bi-arrow-right"></i></span>
                         </a>
 
-                        <a href="/blog.html" class="journal-item">
+                        <a href="/blog.php" class="journal-item">
                             <span class="journal-icon"><i class="bi bi-battery-charging"></i></span>
                             <span class="journal-text">Enerji Dengeleme Tavsiyeleri</span>
                             <span class="journal-arrow"><i class="bi bi-arrow-right"></i></span>
